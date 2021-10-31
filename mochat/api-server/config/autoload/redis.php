@@ -12,7 +12,7 @@ return [
     'default' => [
         'host' => env('REDIS_HOST', 'localhost'),
         'auth' => env('REDIS_AUTH', null),
-        'port' => (int) env('REDIS_PORT', 6379),
+        'port' => (int) env('REDIS_PORT', 6381),
         'db' => (int) env('REDIS_DB', 0),
         'pool' => [
             'min_connections' => 1,

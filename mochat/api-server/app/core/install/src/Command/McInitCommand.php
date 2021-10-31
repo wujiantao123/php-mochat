@@ -263,7 +263,7 @@ class McInitCommand extends HyperfCommand
             ],
             'databases.default.port' => [
                 'DB_PORT',
-                $this->ask('输入mysql.port', env('DB_PORT', '3306')),
+                $this->ask('输入mysql.port', env('DB_PORT', '3307')),
             ],
             'databases.default.database' => [
                 'DB_DATABASE',
@@ -298,7 +298,7 @@ class McInitCommand extends HyperfCommand
             ],
             'redis.default.port' => [
                 'REDIS_PORT',
-                $this->ask('输入redis.port', env('REDIS_PORT', '6379')),
+                $this->ask('输入redis.port', env('REDIS_PORT', '6381')),
             ],
             'redis.default.auth' => [
                 'REDIS_AUTH',
